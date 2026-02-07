@@ -57,14 +57,14 @@ class PerformanceConfig {
         };
 
         this.security = {
-            messageDelay: {
-                min: 1000,
-                max: 5000
-            },
+    messageDelay: {
+        min: 100,
+        max: 300
+    },
             antiBan: {
-                enabled: true,
-                maxConsecutiveErrors: 3,
-                cooldownPeriod: 30000
+        enabled: true,
+        maxConsecutiveErrors: 3,
+        cooldownPeriod: 30000
             }
         };
     }
